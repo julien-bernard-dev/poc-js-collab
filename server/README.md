@@ -1,6 +1,7 @@
 This project is as small backend API built to handle CRUD operation over Collab database.   
 It is based on a Nodejs stack, with Express framework.  
-App skeleton has been created with the following command : "npm install express body-parser cors mongoose nodemon"   
+App skeleton has been created with the following command : 
+**npm install express body-parser cors mongoose nodemon**  
 
 App is composed of the following blocks :   
 - express: server (nodejs) framework.  
