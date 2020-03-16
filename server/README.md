@@ -11,5 +11,6 @@ App is composed of the following blocks :
 - mongoose: mongoDB abstract modeling for nodejs  
 - nodemon: to restart the server when changes occur.  
 
-To run the application, enter the commande node index.js, at project root folder.  
+To run the application, enter the commande node index.js, at project root folder   
+(or **npx nodemon index.js**, to lazy reload server when changes occur un JS sources)   
 The app tries to connect to a mongodb local server, on a "collab" database, on 27017 port.  
