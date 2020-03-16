@@ -11,5 +11,5 @@ Components added to react skeleton :
 - axios (http/promise client base to consume our mongo http api)   
 - bootstrap (some fine stylish tuning)   
     
-To run the application, enter the commande npm start.   
+To run the application, enter the commande **npm start**.   
 Project built and run with Nodejs 10.   

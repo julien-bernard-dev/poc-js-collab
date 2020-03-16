@@ -11,6 +11,7 @@ function App() {
         <Router>
             <NavBar />
             <Switch>
+                <Route path="/" exact component={HomePage} />
                 <Route path="/homepage" exact component={HomePage} />
                 <Route path="/collabs/list" exact component={CollabsList} />
                 <Route path="/collabs/create" exact component={CollabsInsert} />
