@@ -80,41 +80,44 @@ class CollabsList extends Component {
                 Header: 'ID',
                 accessor: '_id',
                 filterable: true,
+                Cell: props => <div style={{ textAlign: "center" }}>{props.value}</div>
             },
             {
                 Header: 'Name',
                 accessor: 'name',
                 filterable: true,
+                Cell: props => <div style={{ textAlign: "center" }}>{props.value}</div>
             },
             {
                 Header: 'Age',
                 accessor: 'age',
                 filterable: true,
+                Cell: props => <div style={{ textAlign: "center" }}>{props.value}</div>
             },
             {
                 Header: 'Skill',
                 accessor: 'skill',
-                Cell: props => <span>{props.value.join(' / ')}</span>,
+                Cell: props => <div style={{ textAlign: "center" }}>{props.value.join(' / ')}</div>,
             },
             {
-                Header: '',
+                Header: 'Delete',
                 accessor: '',
                 Cell: function(props) {
                     return (
-                        <span>
+                        <div style={{ textAlign: "center" }}>
                             <DeleteCollab id={props.original._id} />
-                        </span>
+                        </div>
                     )
                 },
             },
             {
-                Header: '',
+                Header: 'Update',
                 accessor: '',
                 Cell: function(props) {
                     return (
-                        <span>
+                        <div style={{ textAlign: "center" }}>
                             <UpdateCollab id={props.original._id} />
-                        </span>
+                        </div>
                     )
                 },
             },
